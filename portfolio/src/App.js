@@ -16,6 +16,8 @@ import About from './Containers/About';
 import ContactMe from './Containers/ContactMe';
 import Projects from './Containers/Projects';
 
+import './CSS/gradient.css'
+
 function App() {
   return (
     <Router>

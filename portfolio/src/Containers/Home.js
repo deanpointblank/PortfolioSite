@@ -5,8 +5,15 @@ export default class Home extends Component {
     render(){
 
         return(
-            <div className="text-center">
-                <h1>Hello I’m Dean. A fullstack developer.</h1>
+            <div className="container-fluid h-100 d-flex flex-column justify-content-center">
+                <div className="align-self-center align-middle">
+                    <div className="row h-100">
+                        <h1 className="display-1 text-center">Dean Betty</h1>
+                    </div>
+                    <div className="row h-100">
+                        <blockquote className="blockquote text-center">Fullstack Software Developer</blockquote>
+                    </div>
+                </div>
             </div>
         )
     }
