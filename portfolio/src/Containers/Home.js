@@ -5,14 +5,15 @@ export default class Home extends Component {
     render(){
 
         return(
-            <div className="container-fluid h-100 d-flex flex-column justify-content-center">
-                <div className="align-self-center align-middle">
-                    <div className="row h-100">
-                        <h1 className="display-1 text-center">Dean Betty</h1>
+            <div className="container-fluid" >
+                <div className="row" style={{height: '100vh'}}>
+                    <div className="container align-self-center">
+                        <h1 className="display-1 text-center" style={{margin: '0'}}>Dean Betty</h1>
+                        <blockquote className="lead text-center" style={{margin: '0'}}>Fullstack Software Developer</blockquote>
                     </div>
-                    <div className="row h-100">
-                        <blockquote className="blockquote text-center">Fullstack Software Developer</blockquote>
-                    </div>
+                    {/* <div className="container align-self-center matrix-background">
+
+                    </div> */}
                 </div>
             </div>
         )
